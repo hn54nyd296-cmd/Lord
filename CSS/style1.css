@@ -1,0 +1,189 @@
+
+    /* =========================
+    RESET BÁSICO
+========================= */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* =========================
+    BODY
+========================= */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #faf7f3;
+    font-family: 'Courier Prime', monospace;
+    color: #444;
+
+    /* Imagen de fondo decorativa */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px;
+    }
+
+
+
+/* =========================
+    HEADER
+========================= */
+header {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 6px solid #e0d7ff;
+}
+    .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 16px 32px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    }
+
+    .logo {
+    width: 120px;
+    height: auto;
+    }
+
+    .nav a {
+    margin-left: 24px;
+    color: #894646;
+    font-weight: 500;
+    }
+
+    .nav a:hover {
+    color: #4a617f;
+    }
+
+nav a {
+    text-decoration: none;
+    color: #70a1ff;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:last-child {
+    color: #ff6b6b;
+}
+
+
+/* ========================= 
+    MAIN
+========================= */
+main {
+    flex: 1;
+
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* =========================
+    FONFDO MAIN 
+=========================*/
+
+/*
+#bubble {
+    background-color:  rgba(67, 66, 66, 0.4);
+}
+*/
+
+/* =========================
+    FORMULARIO
+========================= */
+.form-container {
+    width: 100%;
+    max-width: 420px;
+
+    padding: 30px 40px;
+    text-align: center;
+    
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px 10px;
+
+    font-size: 14px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #6b4eff;
+}
+
+/* =========================
+    FOOTER
+========================= */
+footer {
+    width: 100%;
+    padding: 30px 0;
+    position: absolute;
+
+    text-align: center;
+    border-top: 1px solid #e0d7ff;
+    padding: 16px 32px;
+    background-color: #fff;
+    bottom: 0;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+    ENCABEZADOS 
+========================= */
+
+#myHome {
+    text-align: center;
+}
+
+
+/* =========================
+    IMAGEN INICIO
+========================= */
+
+.imguno {
+    width: 100%;   
+    justify-self: unset;;    
+}
+
+@media (max-width: 768px) {
+
+    .imagen-hero {
+    height: 40vh;          /* menos altura en móvil */
+    object-position: top; /* prioriza la parte superior */
+    }
+
+}
