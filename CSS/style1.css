@@ -35,28 +35,21 @@ body {
 /* =========================
     HEADER
 ========================= */
-header {
+    header {
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
 
-    padding: 15px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    border-bottom: 6px solid #e0d7ff;
-}
-    .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
     padding: 16px 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
     background-color: #fff;
     border-bottom: 1px solid #eee;
     }
+    
 
     .logo {
     width: 120px;
@@ -73,16 +66,16 @@ header {
     color: #4a617f;
     }
 
-nav a {
+    nav a {
     text-decoration: none;
-    color: #70a1ff;
-    margin: 0 10px;
-    font-weight: bold;
-}
-
-nav a:last-child {
     color: #ff6b6b;
-}
+    margin: 0 10px;
+    font-weight: bold;  
+    }
+
+    nav a:last-child {
+    color: #ff6b6b;
+    }
 
 
 /* ========================= 
@@ -98,18 +91,26 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    color: #894646;
+    }
+
+
 
 /* =========================
     FONFDO MAIN 
 =========================*/
+    .fondo{
+    flex: 1;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
 
-/*
-#bubble {
-    background-color:  rgba(67, 66, 66, 0.4);
-}
-*/
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #894646;
+    }
+    
 /* =========================
     FORMULARIO
 ========================= */
@@ -122,11 +123,11 @@ main {
     
 }
 
-input {
+    input {
     width: 100%;
     margin-bottom: 10px;
 
-    border: 1px solid #ccc;
+    border: 1px solid #f7f7f7;
     border-radius: 8px;
     padding: 8px 10px;
 
@@ -134,56 +135,81 @@ input {
     outline: none;
 }
 
-input:focus {
-    border-color: #6b4eff;
-}
+    input:focus {
+    border-color: #ff6b6b;
+    }
 
+    .submit-btn a {
+        color: #894646;
+    }
+
+    .login-link a {
+        color: #894646;
+    }
 /* =========================
     FOOTER
 ========================= */
-footer {
+    footer {
     width: 100%;
-    padding: 30px 0;
-    position: absolute;
-
-    text-align: center;
-    border-top: 1px solid #e0d7ff;
-    padding: 16px 32px;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
     background-color: #fff;
-    bottom: 0;
-}
+    border-bottom: 1px solid #ffffff;
+    }
+    
 
-footer p {
-    margin: 10px 0;
-}
+    .footer a {
+    margin-left: 24px;
+    color: #894646;
+    font-weight: 500;
+    }
 
-footer a:hover {
-    text-decoration: underline;
-}
+    .footer a:hover {
+    color: #4a617f;
+    }
+
+    footer a {
+    text-decoration: none;
+    margin: 0 0px;
+    font-weight: bold;
+    }
+
+
+    footer a:last-child {
+    color: #894646;
+    }
+    footer p {
+        margin-bottom: 4px;
+        text-align: center;
+    }
+
 
 /* =========================
     ENCABEZADOS 
 ========================= */
 
-#myHome {
+    #myHome {
     text-align: center;
-}
+    }
 
 
 /* =========================
     IMAGEN INICIO
 ========================= */
 
-.imguno {
+    .imguno {
     width: 100%;   
     justify-self: unset;;    
-}
+    }
 
-@media (max-width: 768px) {
+    @media (max-width: 768px) {
 
     .imagen-hero {
     height: 40vh;          /* menos altura en móvil */
     object-position: top; /* prioriza la parte superior */
     }
-
-}
+    }

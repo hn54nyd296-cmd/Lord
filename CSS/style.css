@@ -1,0 +1,81 @@
+/* =========================
+    RESET
+========================= */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* =========================
+    BODY
+========================= */
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #faf7f3;
+    font-family: 'Courier Prime', monospace;
+}
+
+/* =========================
+    CONTENEDOR PRINCIPAL
+========================= */
+.home {
+    text-align: center;
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+}
+
+/* =========================
+    LOGO
+========================= */
+.logo {
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+/* =========================
+    IMAGEN
+========================= */
+.imagen-principal {
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 30px;
+}
+
+/* =========================
+    BOTONES
+========================= */
+.botones {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: inherit;
+    border: 1px solid #cfd8e3;
+}
+
+/* botón azul suave */
+.btn-azul {
+    color: #894646;
+}
+
+/* botón verde suave */
+.btn-verde {
+    color: #894646;
+}
+
+
+
